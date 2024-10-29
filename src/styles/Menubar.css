@@ -1,0 +1,57 @@
+/* src/components/MenuBar.css */
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 1rem 0;
+  }
+  
+  .menu-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .menu-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0.5rem;
+    min-width: 200px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a,
+  .dropdown-content p {
+    color: #fff;
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  
