@@ -1,3 +1,5 @@
+
+
 // src/pages/Home.js
 import React from "react";
 import HeroCarousel from "../components/HeroCarousel";

@@ -29,3 +29,34 @@
     font-size: 1rem;
   }
   
+/* src/components/Footer.css */
+
+.footer {
+    padding: 2rem;
+    background-color: #4b0082; /* Purple */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ccc;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  

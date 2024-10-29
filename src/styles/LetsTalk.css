@@ -71,3 +71,76 @@
     background-color: #330066;
   }
   
+/* src/pages/LetsTalk.css */
+
+.lets-talk {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    color: #4b0082; /* Purple */
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group.left {
+    align-items: flex-start;
+  }
+  
+  .form-group.right {
+    align-items: flex-start;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .send-button {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #330066;
+  }
+  
